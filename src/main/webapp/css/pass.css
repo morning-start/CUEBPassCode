@@ -1,0 +1,62 @@
+html {
+	height: 700px;
+}
+body {
+	max-width: 540px;
+	min-width: 320px;
+	margin: 5px auto 0;
+	font: normal 14px/1.5 "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial,
+		sans-serif;
+	color: #000;
+	background-color: rgb(255, 255, 255);
+	overflow-x: hidden;
+	-webkit-tap-highlight-color: transparent;
+	display: flex;
+	flex-direction: column;
+}
+i {
+	/* 去除斜体 */
+	font-style: normal;
+}
+
+.label {
+	background: rgb(241, 241, 241);
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	width: 95px;
+	height: 30px;
+}
+article {
+	font-size: 25px;
+	font-weight: 700;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	color: rgb(28, 139, 220);
+	margin: 0 auto;
+}
+article div {
+	margin: 10px auto;
+}
+.green {
+	color: rgb(85, 185, 91);
+}
+.red {
+	color: rgb(221, 83, 80);
+}
+img {
+	margin: 0 auto;
+}
+.SJM {
+	width: 85%;
+}
+.pass {
+	width: 20%;
+}
+.CUEB {
+	width: 60%;
+}
